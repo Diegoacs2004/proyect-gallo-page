@@ -1,0 +1,40 @@
+.container-registro {
+    max-width: 500px;
+    padding: 20px;
+    border: 2px solid #6C6C6C;
+    background-color: #EDEDED;
+}
+
+.title-init {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-bottom: 20px; /* Añade espacio debajo del título */
+}
+
+.title-init h1 {
+    font-family: "Inter Tight", sans-serif;
+    font-size: 1.5rem;
+    color: #2F2F2F;
+}
+
+.container-inputs {
+    text-align: center; /* Centra los inputs horizontalmente */
+    width: calc(100% - 20px); /* Toma el ancho total del formulario, restando el padding */
+}
+
+.container-inputs input {
+    display: block; /* Para que los inputs ocupen todo el ancho disponible */
+    margin-bottom: 25px; /* Agrega margen inferior de 25px */
+    padding: 10px;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 1.2rem;
+    border: 1px solid #6C6C6C;
+    background-color: transparent;
+    width: 100%; /* Opcional: ajusta el ancho automáticamente al ancho del contenedor */
+    text-align: left; /* Alinea el texto a la izquierda dentro del input */
+}
+
+/* Aplica el estilo a todos los placeholders de los inputs */
+input::placeholder {
+    color: gray;
+    font-weight: 300; /* Cambia el tipo de letra del placeholder a light */
+}
