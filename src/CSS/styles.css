@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --background: #EDEDED;
+    --white: #fff;
+    --black: #2F2F2F;
+    --red: #C8271D;
+    --gris: #3F3F3F;
+}   
+
+.title{
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.subtitle{
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--black);
+}
+
+.text{
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--black);
+}
