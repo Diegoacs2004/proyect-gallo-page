@@ -12,6 +12,4 @@ import HeaderSection from "./components/Organism/HeaderSection.vue";
 import FooterSection from "./components/Organism/FooterSection.vue";
 </script>
 
-<style lang="scss">
-
-</style>
+<style lang="scss"></style>

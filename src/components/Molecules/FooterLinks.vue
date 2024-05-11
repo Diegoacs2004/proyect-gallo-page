@@ -9,7 +9,7 @@ import ContactLink from "../atoms/ContactLinks.vue";
 <style scoped>
 .footer {
   background-color: #2f2f2f;
-  padding: 32px;
+  padding: 24px;
   display: flex;
   justify-content: center;
   text-align: center;

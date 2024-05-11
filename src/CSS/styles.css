@@ -29,6 +29,17 @@
     color: var(--black);
 }
 
-.input{
-    
+.btn-main{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 16px;
+    max-width: 100%;
+    background-color: #C8271D;
+    border: none;
+}
+
+.input-main{
+    padding: 8px;
+    border: 1px solid #3F3F3F;
 }

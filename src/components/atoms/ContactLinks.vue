@@ -9,7 +9,7 @@
           <a color="info" class="link">BENEFICIOS</a>
         </div>
         <div>
-          <p>
+          <p class="link">
             El uso de este sitio está sujeto a las condiciones de uso de la
             empresa. Al utilizar este sitio, tú indicas que aceptas cumplir con
             estos Términos universales de servicio. ®{{
@@ -18,6 +18,11 @@
           </p>
         </div>
       </v-column>
+      <v-column
+        ><i>ICONO</i>
+        <i>ICONO</i>
+        <i>ICONO</i></v-column
+      >
     </v-row>
   </div>
 </template>
@@ -25,5 +30,6 @@
 <style scoped>
 .link {
   margin-left: 32px;
+  font-size: 12px;
 }
 </style>
